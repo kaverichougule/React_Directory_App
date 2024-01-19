@@ -1,3 +1,11 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
 .Heading{
   background-color: #4472C4;
   width: 100%;
@@ -13,6 +21,8 @@
   align-items: center;
   flex-direction: column;
   padding-top: 1rem;
+  width: 90%;
+  
 }
 .buttons{
   display: flex;
@@ -24,4 +34,35 @@ button{
   background-color: rgb(68,114,196);
   border: none;
   border-radius: 0.3rem;
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid black;
+  padding: 1rem;
+  gap: 1rem;
+  width: 100%;
+}
+table{
+  width: 100%;
+  border: 1px solid gray;
+}
+thead{
+  background-color: rgb(68,114,196);
+}
+tr{
+  margin-right: 1rem;
+}
+th{
+  padding: 1rem;
+}
+td{
+  padding: 1rem;
+}
+.NewEntryForm{
+  background-color: rgb(68,114,196);
+  padding: 1rem;
+  flex-direction: column;
 }
